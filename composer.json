@@ -1,0 +1,17 @@
+{
+    "name": "roave/silverstripe-callfire",
+    "description": "CallFire integration for SilverStripe",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "callfire"],
+    "require": {
+        "silverstripe/framework": "3.*",
+        "callfire/php-sdk": "~1.1.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Justin Martin",
+            "email": "frozenfire@thefrozenfire.com"
+        }
+    ]
+}
