@@ -11,4 +11,8 @@ class CallFireConfig extends DataExtension {
 			TextField::create("CallFire_ApiPassword", "API Password")
 		));
 	}
+	
+	public function getCallFireClient($apis) {
+		return CallFire\Api\Client::Rest($this->owner->CallFire_ApiUsername, $this->owner->CallFire_ApiPassword, $apis);
+	}
 }
